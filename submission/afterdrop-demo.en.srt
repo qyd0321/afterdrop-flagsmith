@@ -1,0 +1,59 @@
+1
+00:00:00,000 --> 00:00:05,000
+Checkpoints nearly doubled timely uploads in our Flagsmith test. We kept them off by
+default.
+
+2
+00:00:05,000 --> 00:00:08,000
+Here's what changed that decision.
+
+3
+00:00:08,000 --> 00:00:15,000
+Two clients send the same file. At seventy percent, both connections drop at exactly
+the same byte.
+
+4
+00:00:15,000 --> 00:00:19,000
+The receiver kept the confirmed chunks. Only the resumable upload finished on time.
+
+5
+00:00:19,000 --> 00:00:21,000
+Now try a stable link.
+
+6
+00:00:21,000 --> 00:00:28,000
+Each request takes two hundred milliseconds to acknowledge. Eight checkpoint
+requests consume the entire deadline.
+
+7
+00:00:28,000 --> 00:00:33,000
+This time only the whole file passed. Every success requires a matching server
+digest.
+
+8
+00:00:33,000 --> 00:00:40,000
+For the recorded experiment, Flagsmith assigned each of one hundred sixty simulated
+visitors to one strategy.
+
+9
+00:00:40,000 --> 00:00:47,000
+Thirty-eight of eighty-three control uploads and sixty-eight of seventy-seven
+resumable uploads finished on time.
+
+10
+00:00:47,000 --> 00:00:54,000
+But on the high-latency link, whole-file retry won eleven of eleven. Resume won zero
+of nine.
+
+11
+00:00:54,000 --> 00:00:59,000
+We retained control. Let's check the released flag with a fresh upload.
+
+12
+00:00:59,000 --> 00:01:03,000
+The official SDK reads the current flag from Flagsmith.
+
+13
+00:01:03,000 --> 00:01:10,000
+Control selected whole-file retry. This fresh server receipt verifies that choice
+without adding a visitor to the experiment.

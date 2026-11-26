@@ -1,0 +1,26 @@
+{
+  "id": 3,
+  "status": "completed",
+  "started_at": "2026-11-26T11:38:04.795253Z",
+  "ended_at": "2026-11-26T11:39:47.643978Z",
+  "rollout_decision": "control",
+  "flag": {
+    "feature": "afterdrop_upload_v2",
+    "type": "multivariate",
+    "description": "",
+    "enabled": true,
+    "value": "control",
+    "segment_overrides": 0,
+    "identity_overrides": 0,
+    "code_references": 0,
+    "lifecycle_stage": "new",
+    "variants": [
+      {
+        "id": 3,
+        "value": "resume",
+        "weight": 0,
+        "key": "resume"
+      }
+    ]
+  }
+}

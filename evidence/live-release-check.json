@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-11-26T11:58:31.234458+00:00",
+  "platform": "Self-hosted Flagsmith",
+  "purpose": "Post-experiment judge-flow verification; separate from study participants.",
+  "test_environment": "Release Review",
+  "test_environment_id": 2,
+  "test_flag": "afterdrop_review_strategy",
+  "fixed_scenario": "stable",
+  "checks": [
+    {
+      "operator_setting": "control",
+      "http_status": 200,
+      "status": "executed",
+      "strategy": "whole",
+      "receiver_puts": 1,
+      "receipt": {
+        "identity": "release-check-stable",
+        "scenario": "stable",
+        "strategy": "whole",
+        "size_bytes": 524288,
+        "wire_bytes": 524288,
+        "confirmed_bytes": 524288,
+        "elapsed_ms": 250.0,
+        "elapsed_ms_exact": 250.0,
+        "deadline_ms": 1250,
+        "attempts": 1,
+        "disconnects": 0,
+        "expected_sha256": "f82a3484b19d5aba1c7743c31e6b7b1943cdf2183beb3a937cd279e05f4b70f5",
+        "sha256": "f82a3484b19d5aba1c7743c31e6b7b1943cdf2183beb3a937cd279e05f4b70f5",
+        "verified": true,
+        "success": true,
+        "reason": "verified"
+      }
+    },
+    {
+      "operator_setting": "resume",
+      "http_status": 200,
+      "status": "executed",
+      "strategy": "resume",
+      "receiver_puts": 8,
+      "receipt": {
+        "identity": "release-check-stable",
+        "scenario": "stable",
+        "strategy": "resume",
+        "size_bytes": 524288,
+        "wire_bytes": 524288,
+        "confirmed_bytes": 524288,
+        "elapsed_ms": 390.0,
+        "elapsed_ms_exact": 390.00000001396984,
+        "deadline_ms": 1250,
+        "attempts": 8,
+        "disconnects": 0,
+        "expected_sha256": "f82a3484b19d5aba1c7743c31e6b7b1943cdf2183beb3a937cd279e05f4b70f5",
+        "sha256": "f82a3484b19d5aba1c7743c31e6b7b1943cdf2183beb3a937cd279e05f4b70f5",
+        "verified": true,
+        "success": true,
+        "reason": "verified"
+      }
+    },
+    {
+      "operator_setting": "off",
+      "http_status": 200,
+      "status": "disabled",
+      "strategy": null,
+      "receiver_puts": 0,
+      "receipt": null
+    }
+  ],
+  "released_flag_check": {
+    "status": "executed",
+    "flag": "afterdrop_upload_v2",
+    "value": "control",
+    "strategy": "whole",
+    "receipt": {
+      "identity": "release-check-stable",
+      "scenario": "stable",
+      "strategy": "whole",
+      "size_bytes": 524288,
+      "wire_bytes": 524288,
+      "confirmed_bytes": 524288,
+      "elapsed_ms": 281.0,
+      "elapsed_ms_exact": 280.9999999590218,
+      "deadline_ms": 1250,
+      "attempts": 1,
+      "disconnects": 0,
+      "expected_sha256": "f82a3484b19d5aba1c7743c31e6b7b1943cdf2183beb3a937cd279e05f4b70f5",
+      "sha256": "f82a3484b19d5aba1c7743c31e6b7b1943cdf2183beb3a937cd279e05f4b70f5",
+      "verified": true,
+      "success": true,
+      "reason": "verified"
+    }
+  },
+  "instance_unavailable_check": {
+    "http_status": 503,
+    "status": "unavailable",
+    "receiver_puts": 0
+  },
+  "experiment_3_state_and_results_unchanged": true
+}

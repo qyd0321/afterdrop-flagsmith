@@ -1,0 +1,46 @@
+name: afterdrop-flagsmith
+
+x-flagsmith: &flagsmith
+  image: flagsmith/flagsmith@sha256:48905c664152d8ae2c843ec9cee72ff197e7caff6e91b959bb851a235915ea35
+  environment:
+    DATABASE_URL: postgresql://postgres:${AFTERDROP_DB_PASSWORD:?generate local.env first}@db:5432/flagsmith
+    DJANGO_ALLOWED_HOSTS: 'localhost,127.0.0.1'
+    DJANGO_SECRET_KEY: ${AFTERDROP_SIGNING_SECRET:?generate local.env first}
+    WAREHOUSE_CREDENTIALS_SECRET: ${AFTERDROP_WAREHOUSE_SECRET:?generate local.env first}
+    FLAGSMITH_DOMAIN: 127.0.0.1:${AFTERDROP_PORT:-18711}
+    USE_POSTGRES_FOR_ANALYTICS: 'true'
+    EXPERIMENTATION_ENABLED: 'true'
+    TASK_RUN_METHOD: TASK_PROCESSOR
+    ENVIRONMENT: production
+
+services:
+  db:
+    image: postgres@sha256:934be6ae0a5bce0f607a5edc437e6bd606c074e595c28d4897845d6502823104
+    environment:
+      POSTGRES_PASSWORD: ${AFTERDROP_DB_PASSWORD}
+      POSTGRES_DB: flagsmith
+    volumes:
+      - data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U postgres -d flagsmith']
+      interval: 2s
+      timeout: 2s
+      retries: 30
+  migrate:
+    <<: *flagsmith
+    command: migrate
+    depends_on:
+      db: {condition: service_healthy}
+  api:
+    <<: *flagsmith
+    command: serve
+    ports: ['127.0.0.1:${AFTERDROP_PORT:-18711}:8000']
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+  processor:
+    <<: *flagsmith
+    command: run-task-processor
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+volumes:
+  data:

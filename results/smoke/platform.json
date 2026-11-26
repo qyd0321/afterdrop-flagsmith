@@ -1,0 +1,57 @@
+{
+  "experiment_id": 1,
+  "name": "Afterdrop / afterdrop_smoke",
+  "results": {
+    "as_of": "2026-11-26T11:35:58.132968Z",
+    "last_error_at": null,
+    "refresh_requested_at": "2026-11-26T11:35:57.982673Z",
+    "payload": {
+      "metrics": [
+        {
+          "variants": {
+            "resume": {
+              "n": 2,
+              "sum": 1.0,
+              "sum_squares": 1.0
+            },
+            "control": {
+              "n": 2,
+              "sum": 1.0,
+              "sum_squares": 1.0
+            }
+          },
+          "inference": {
+            "resume": null
+          },
+          "metric_id": 1,
+          "conversions_timeseries": {
+            "points": [
+              {
+                "bucket": "2026-11-26T11:00:00+00:00",
+                "converted_identities": {
+                  "resume": 1,
+                  "control": 1
+                }
+              }
+            ],
+            "granularity": "hour"
+          }
+        }
+      ],
+      "srm_p_value": null,
+      "exposures_timeseries": {
+        "points": [
+          {
+            "bucket": "2026-11-26T11:00:00+00:00",
+            "new_identities": {
+              "resume": 2,
+              "control": 2
+            }
+          }
+        ],
+        "granularity": "hour"
+      }
+    },
+    "is_final": false
+  }
+}

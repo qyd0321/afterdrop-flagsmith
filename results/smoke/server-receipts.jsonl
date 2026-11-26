@@ -1,0 +1,16 @@
+{"identity": "after-disconnect-smoke-001", "strategy": "resume", "offset": 0, "declared_bytes": 65536, "received_bytes": 65536, "status": 200, "confirmed": 65536, "sha256": null, "verified": false}
+{"identity": "after-disconnect-smoke-001", "strategy": "resume", "offset": 65536, "declared_bytes": 65536, "received_bytes": 65536, "status": 200, "confirmed": 131072, "sha256": null, "verified": false}
+{"identity": "after-disconnect-smoke-001", "strategy": "resume", "offset": 131072, "declared_bytes": 65536, "received_bytes": 65536, "status": 200, "confirmed": 196608, "sha256": null, "verified": false}
+{"identity": "after-disconnect-smoke-003", "strategy": "whole", "offset": 0, "declared_bytes": 32768, "received_bytes": 32768, "status": 200, "confirmed": 32768, "sha256": "1a24528b9c6f35fbd94fce662ca85c15124ff808865cc7b9d0bb4f042e7306ee", "verified": true}
+{"identity": "after-disconnect-smoke-001", "strategy": "resume", "offset": 196608, "declared_bytes": 65536, "received_bytes": 65536, "status": 200, "confirmed": 262144, "sha256": null, "verified": false}
+{"identity": "after-disconnect-smoke-001", "strategy": "resume", "offset": 262144, "declared_bytes": 65536, "received_bytes": 65536, "status": 200, "confirmed": 327680, "sha256": null, "verified": false}
+{"identity": "after-disconnect-smoke-001", "strategy": "resume", "offset": 327680, "declared_bytes": 65536, "received_bytes": 65536, "status": 200, "confirmed": 393216, "sha256": null, "verified": false}
+{"identity": "after-disconnect-smoke-002", "strategy": "resume", "offset": 0, "declared_bytes": 65536, "received_bytes": 65536, "status": 200, "confirmed": 65536, "sha256": null, "verified": false}
+{"identity": "after-disconnect-smoke-001", "strategy": "resume", "offset": 393216, "declared_bytes": 65536, "received_bytes": 65536, "status": 200, "confirmed": 458752, "sha256": null, "verified": false}
+{"identity": "after-disconnect-smoke-001", "strategy": "resume", "offset": 458752, "declared_bytes": 65536, "received_bytes": 65536, "status": 200, "confirmed": 524288, "sha256": "ba21843780257c3fffeeb7dca2ec159cd8680c74dd90b7b2b345309936d39002", "verified": true}
+{"identity": "after-disconnect-smoke-002", "strategy": "resume", "offset": 65536, "declared_bytes": 65536, "received_bytes": 65536, "status": 200, "confirmed": 131072, "sha256": null, "verified": false}
+{"identity": "after-disconnect-smoke-000", "strategy": "whole", "offset": 0, "declared_bytes": 524288, "received_bytes": 367001, "status": 409, "confirmed": 0, "sha256": null, "verified": false}
+{"identity": "after-disconnect-smoke-002", "strategy": "resume", "offset": 131072, "declared_bytes": 65536, "received_bytes": 65536, "status": 200, "confirmed": 196608, "sha256": null, "verified": false}
+{"identity": "after-disconnect-smoke-002", "strategy": "resume", "offset": 196608, "declared_bytes": 65536, "received_bytes": 65536, "status": 200, "confirmed": 262144, "sha256": null, "verified": false}
+{"identity": "after-disconnect-smoke-000", "strategy": "whole", "offset": 0, "declared_bytes": 524288, "received_bytes": 360448, "status": 409, "confirmed": 0, "sha256": null, "verified": false}
+{"identity": "after-disconnect-smoke-002", "strategy": "resume", "offset": 262144, "declared_bytes": 65536, "received_bytes": 65536, "status": 200, "confirmed": 327680, "sha256": null, "verified": false}

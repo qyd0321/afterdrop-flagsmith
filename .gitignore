@@ -1,0 +1,10 @@
+.venv/
+.local/
+__pycache__/
+*.pyc
+.env
+*.env
+flagsmith.json
+Afterdrop-Track01.zip
+Afterdrop-Track01-Reviewed.zip
+Afterdrop-Track01-Review-Dossier.zip

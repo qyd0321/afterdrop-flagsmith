@@ -1,0 +1,87 @@
+{
+  "mode": "flagsmith",
+  "smoke": true,
+  "workers": 4,
+  "groups": {
+    "overall": {
+      "whole": {
+        "n": 2,
+        "successes": 1,
+        "success_rate": 0.5,
+        "median_elapsed_success_only_ms": 31.0,
+        "payload_bytes_sent": 760217
+      },
+      "resume": {
+        "n": 2,
+        "successes": 1,
+        "success_rate": 0.5,
+        "median_elapsed_success_only_ms": 343.0,
+        "payload_bytes_sent": 851968
+      }
+    },
+    "interrupted": {
+      "whole": {
+        "n": 1,
+        "successes": 0,
+        "success_rate": 0.0,
+        "median_elapsed_success_only_ms": null,
+        "payload_bytes_sent": 727449
+      },
+      "resume": {
+        "n": 0,
+        "successes": 0,
+        "success_rate": null,
+        "median_elapsed_success_only_ms": null,
+        "payload_bytes_sent": 0
+      }
+    },
+    "stable": {
+      "whole": {
+        "n": 0,
+        "successes": 0,
+        "success_rate": null,
+        "median_elapsed_success_only_ms": null,
+        "payload_bytes_sent": 0
+      },
+      "resume": {
+        "n": 1,
+        "successes": 1,
+        "success_rate": 1.0,
+        "median_elapsed_success_only_ms": 343.0,
+        "payload_bytes_sent": 524288
+      }
+    },
+    "latency": {
+      "whole": {
+        "n": 0,
+        "successes": 0,
+        "success_rate": null,
+        "median_elapsed_success_only_ms": null,
+        "payload_bytes_sent": 0
+      },
+      "resume": {
+        "n": 1,
+        "successes": 0,
+        "success_rate": 0.0,
+        "median_elapsed_success_only_ms": null,
+        "payload_bytes_sent": 327680
+      }
+    },
+    "small": {
+      "whole": {
+        "n": 1,
+        "successes": 1,
+        "success_rate": 1.0,
+        "median_elapsed_success_only_ms": 31.0,
+        "payload_bytes_sent": 32768
+      },
+      "resume": {
+        "n": 0,
+        "successes": 0,
+        "success_rate": null,
+        "median_elapsed_success_only_ms": null,
+        "payload_bytes_sent": 0
+      }
+    }
+  }
+}

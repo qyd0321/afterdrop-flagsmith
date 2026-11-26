@@ -1,0 +1,5 @@
+identity,scenario,strategy,size_bytes,wire_bytes,confirmed_bytes,elapsed_ms,elapsed_ms_exact,deadline_ms,attempts,disconnects,expected_sha256,sha256,verified,success,reason
+after-disconnect-smoke-000,interrupted,whole,524288,711065,0,1250.0,1250.0,1250,2,1,b3c9219b91ccc094e0842c2735a429cb691834dd03f92ed8630d6bdb67cffacb,,False,False,deadline
+after-disconnect-smoke-001,stable,resume,524288,524288,524288,343.0,342.99999999348074,1250,8,0,ba21843780257c3fffeeb7dca2ec159cd8680c74dd90b7b2b345309936d39002,ba21843780257c3fffeeb7dca2ec159cd8680c74dd90b7b2b345309936d39002,True,True,verified
+after-disconnect-smoke-002,latency,whole,524288,524288,524288,453.0,452.9999999795109,1250,1,0,ed6a95a3828a0a799a6164d85e9d8da759554903d11ca0b54be3d66fb0828e5a,ed6a95a3828a0a799a6164d85e9d8da759554903d11ca0b54be3d66fb0828e5a,True,True,verified
+after-disconnect-smoke-003,small,whole,32768,32768,32768,31.0,30.999999959021807,1250,1,0,1a24528b9c6f35fbd94fce662ca85c15124ff808865cc7b9d0bb4f042e7306ee,1a24528b9c6f35fbd94fce662ca85c15124ff808865cc7b9d0bb4f042e7306ee,True,True,verified

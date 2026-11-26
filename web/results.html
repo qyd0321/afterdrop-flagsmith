@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Afterdrop — Release decision</title>
+  <link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/results.css">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+<header class="mast"><div class="shell mast-inner">
+  <a class="brand" href="/"><i class="sigil" aria-hidden="true"><b></b><b></b><b></b></i>Afterdrop</a>
+  <nav aria-label="Sections"><a href="/">Upload lab</a><a href="/results.html" aria-current="page">Results</a><a href="#live">Live flag</a></nav>
+</div></header>
+<main class="shell report">
+  <section class="intro">
+    <div><p class="eyebrow">RECORDED A/B EXPERIMENT</p><h1 id="headline">Release decision<span>.</span></h1>
+      <p class="summary" id="status" role="status">Reading the final Flagsmith snapshot and transfer records…</p></div>
+  </section>
+  <div id="findings" hidden>
+    <div id="arms" class="result-grid"></div>
+    <div class="readout"><strong id="delta"></strong><span id="verified"></span></div>
+    <section class="section-block">
+      <p class="eyebrow">ROLLOUT GUARDRAIL</p><h2>Where did checkpoints help?</h2>
+      <p class="body-copy">Success required a verified SHA-256 receipt within 1.25 s. We allowed at most five percentage points of harm in each uninterrupted profile.</p>
+      <div class="table-scroll"><table class="profiles-table"><thead><tr><th scope="col">Link profile</th><th scope="col">Whole file</th><th scope="col">Resume</th><th scope="col">Difference</th></tr></thead><tbody id="rows"></tbody></table></div>
+      <p id="harm" class="decision-note"></p>
+    </section>
+    <details class="mix"><summary>Explore a different traffic mix</summary>
+      <p>Change the share of transfers that disconnect. The remaining visitors stay in the original 2:1:1 ratio across stable, high-latency and small-file profiles. Estimates reuse the observed success rate within each profile.</p>
+      <label for="mix-range">Interrupted transfers <output id="mix-percent" for="mix-range"></output></label>
+      <input type="range" id="mix-range" min="0" max="100" value="50" step="1">
+      <p id="mix-population"></p><p id="mix-outcome" class="mix-estimate"></p>
+      <p>The two estimated rates meet when 20% of visitors disconnect. This threshold applies to this workload and its fixed mix of other links.</p>
+    </details>
+    <p class="decision-note"><strong>What if the link drops earlier?</strong> In a separate paired transport test, a drop at 20% of the <em>file</em> and 35 ms per request gave 4/4 timely whole-file uploads and 0/4 resumable uploads. <a href="/data/sensitivity.csv">Secondary test ledger</a></p>
+    <div class="sources"><a href="/data/flagsmith-dashboard.png">Dashboard capture ↗</a><a href="/data/platform.json">Platform JSON</a><a href="/data/sessions.csv" download>Session CSV</a><a href="/data/reconciliation.json">Audit counts</a><a href="/data/release.json">Release record</a></div>
+  </div>
+  <section id="live" class="section-block live">
+    <div class="live-copy"><p class="eyebrow">LIVE SDK CHECK</p><h2>Run the released strategy<span>.</span></h2>
+      <p>Read the current flag from Flagsmith, then upload a generated file with the selected strategy. This read-only check leaves the completed experiment untouched.</p>
+      <form id="live-form"><label for="live-profile">Network profile</label>
+        <select id="live-profile" name="scenario"><option value="stable">Stable link</option><option value="interrupted">Drop at 70%</option><option value="latency">High latency</option><option value="small">Small file</option></select>
+        <button type="submit" id="live-run">Check flag &amp; upload</button></form>
+    </div>
+    <div class="live-details"><p class="eyebrow">RELEASE RECEIPT</p><p id="live-status" role="status">Ready for a fresh SDK read.</p>
+      <dl id="live-fields" hidden></dl><a class="saved-receipt" href="/data/live-release-check.json">View the saved SDK receipt ↗</a></div>
+  </section>
+  <footer><span>Afterdrop / Release decision</span><a href="/">Return to upload lab →</a></footer>
+</main><script src="/results.js"></script></body></html>

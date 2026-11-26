@@ -1,0 +1,601 @@
+{"event": "assigning", "identity": "after-disconnect-v1-000", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-000", "scenario": "small", "strategy": "resume"}
+{"event": "assigning", "identity": "after-disconnect-v1-001", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-001", "scenario": "interrupted", "strategy": "resume"}
+{"event": "assigning", "identity": "after-disconnect-v1-002", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-002", "scenario": "stable", "strategy": "whole"}
+{"event": "assigning", "identity": "after-disconnect-v1-003", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-003", "scenario": "latency", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-000", "scenario": "small", "strategy": "resume", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 47.0, "elapsed_ms_exact": 47.0000000204891, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "9cdcb45d412f2a77ed4dc78faf612232dffc5964dbe6e39c681363a2f4503bdb", "sha256": "9cdcb45d412f2a77ed4dc78faf612232dffc5964dbe6e39c681363a2f4503bdb", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-000"}
+{"event": "assigning", "identity": "after-disconnect-v1-004", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-004", "scenario": "latency", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-002", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 266.0, "elapsed_ms_exact": 265.99999994505197, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "b6b63903085061a21c9ddb529f1c73c1cd15f5888ac45d43cf9080fe4401f2c4", "sha256": "b6b63903085061a21c9ddb529f1c73c1cd15f5888ac45d43cf9080fe4401f2c4", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-002"}
+{"event": "assigning", "identity": "after-disconnect-v1-005", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-005", "scenario": "small", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-005", "scenario": "small", "strategy": "whole", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 32.0, "elapsed_ms_exact": 32.00000000651926, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "979d9951a5278294050d46f82da59e41208abeab3ce4c075184a28be9ca6aba6", "sha256": "979d9951a5278294050d46f82da59e41208abeab3ce4c075184a28be9ca6aba6", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-005"}
+{"event": "assigning", "identity": "after-disconnect-v1-006", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-006", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-003", "scenario": "latency", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 469.0, "elapsed_ms_exact": 469.0000000409782, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "008b3936d82b76a21bf68e3dfb756f54c22ce69b5fd1c892b8e2bfae879941ac", "sha256": "008b3936d82b76a21bf68e3dfb756f54c22ce69b5fd1c892b8e2bfae879941ac", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-003"}
+{"event": "assigning", "identity": "after-disconnect-v1-007", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-007", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-004", "scenario": "latency", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 453.0, "elapsed_ms_exact": 452.9999999795109, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "f6e9638bc13eb5437d58bf3a32845b5744473efeebef452df0c6aa77a93ffefc", "sha256": "f6e9638bc13eb5437d58bf3a32845b5744473efeebef452df0c6aa77a93ffefc", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-004"}
+{"event": "assigning", "identity": "after-disconnect-v1-008", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-008", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-001", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1063.0, "elapsed_ms_exact": 1063.0000000819564, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "59210ba4ae978cc7a18c4efff359a997705ad7f3b7d594115bcca5087de9353b", "sha256": "59210ba4ae978cc7a18c4efff359a997705ad7f3b7d594115bcca5087de9353b", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-001"}
+{"event": "assigning", "identity": "after-disconnect-v1-009", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-009", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-009", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 250.0, "elapsed_ms_exact": 250.0, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "9301b84d40eef442d7c48def8d764ea55832018bf1a3396f3d8142772ba4539c", "sha256": "9301b84d40eef442d7c48def8d764ea55832018bf1a3396f3d8142772ba4539c", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-009"}
+{"event": "assigning", "identity": "after-disconnect-v1-010", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-010", "scenario": "small", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-010", "scenario": "small", "strategy": "whole", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 16.0, "elapsed_ms_exact": 16.00000006146729, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "053d76d2fa87aaeaa72efa4a136d6f3c4720591ac9eac6b0fa0a19361f385d70", "sha256": "053d76d2fa87aaeaa72efa4a136d6f3c4720591ac9eac6b0fa0a19361f385d70", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-010"}
+{"event": "assigning", "identity": "after-disconnect-v1-011", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-011", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-006", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1031.0, "elapsed_ms_exact": 1030.9999999590218, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "437b1dcaaa74f4fcf61fee33d045fb2a7736f889fa458bdcef71eb2fc549ba18", "sha256": "437b1dcaaa74f4fcf61fee33d045fb2a7736f889fa458bdcef71eb2fc549ba18", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-006"}
+{"event": "assigning", "identity": "after-disconnect-v1-012", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-012", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-008", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1031.0, "elapsed_ms_exact": 1030.9999999590218, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "f51cd3a849d60f25f46fc7d4d53fd1ce81540baa20832f2a86232e0c84aece29", "sha256": "f51cd3a849d60f25f46fc7d4d53fd1ce81540baa20832f2a86232e0c84aece29", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-008"}
+{"event": "assigning", "identity": "after-disconnect-v1-013", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-013", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-011", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 328.0, "elapsed_ms_exact": 328.0000000959262, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "37c369a440fbc7a0dbaab8c53ff7ef51d1571773419c94d94c09abae13290a75", "sha256": "37c369a440fbc7a0dbaab8c53ff7ef51d1571773419c94d94c09abae13290a75", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-011"}
+{"event": "assigning", "identity": "after-disconnect-v1-014", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-014", "scenario": "latency", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-007", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "32f0aaf55483603edd9df53d1f2d5092aa786d6371fb9d46ac756fea05a2c219", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-015", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-015", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-015", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 266.0, "elapsed_ms_exact": 265.99999994505197, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "4a09b6e64b4ceb41d0d0741df42aa0a1333b06dce71cb274cfe089768a137e42", "sha256": "4a09b6e64b4ceb41d0d0741df42aa0a1333b06dce71cb274cfe089768a137e42", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-015"}
+{"event": "assigning", "identity": "after-disconnect-v1-016", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-016", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-012", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1078.0, "elapsed_ms_exact": 1077.999999979511, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "ae0ea9b0d364d81f99f0ce5934145e918da4829f7610ccc6a8c4f8abc1e14b5e", "sha256": "ae0ea9b0d364d81f99f0ce5934145e918da4829f7610ccc6a8c4f8abc1e14b5e", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-012"}
+{"event": "assigning", "identity": "after-disconnect-v1-017", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-017", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-017", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 328.0, "elapsed_ms_exact": 327.9999999795109, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "ca2a4dc8d6d514f0cd21b7db7f6bc1da0ac84496be133a80480cb7e88333a585", "sha256": "ca2a4dc8d6d514f0cd21b7db7f6bc1da0ac84496be133a80480cb7e88333a585", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-017"}
+{"event": "assigning", "identity": "after-disconnect-v1-018", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-018", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-013", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 711065, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "e969010575000d30c2a7bfb416d84b97bc9c5394ee2e9c9cc819f48df43593bd", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-019", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-019", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-014", "scenario": "latency", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 327680, "confirmed_bytes": 327680, "elapsed_ms": 1266.0, "elapsed_ms_exact": 1266.0000000614673, "deadline_ms": 1250, "attempts": 6, "disconnects": 0, "expected_sha256": "71f73bc0dd2650e6ecc2b03726804c883f809bd077d02cce053eea68980211ab", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-020", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-020", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-019", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 344.0, "elapsed_ms_exact": 343.99999992456287, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "f19e9010a7a6f9822a1a8df532d7423500df82413c7c63b2429f1990360e305d", "sha256": "f19e9010a7a6f9822a1a8df532d7423500df82413c7c63b2429f1990360e305d", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-019"}
+{"event": "assigning", "identity": "after-disconnect-v1-021", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-021", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-016", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "729132e72fc008c28c53840b4920026c593ee0a943b9e5249f21a750c5064dd3", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-022", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-022", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-022", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 312.0, "elapsed_ms_exact": 312.00000003445894, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "1a286f49ead7c7af470def2afea98a417b0027da7b839a8ea6025dcca9357648", "sha256": "1a286f49ead7c7af470def2afea98a417b0027da7b839a8ea6025dcca9357648", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-022"}
+{"event": "assigning", "identity": "after-disconnect-v1-023", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-023", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-018", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1031.0, "elapsed_ms_exact": 1030.9999999590218, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "86cb9a492c9cffa6b6ad43883913dcc058242610df390b1556eb7fe35f8b3f97", "sha256": "86cb9a492c9cffa6b6ad43883913dcc058242610df390b1556eb7fe35f8b3f97", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-018"}
+{"event": "assigning", "identity": "after-disconnect-v1-024", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-024", "scenario": "latency", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-020", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1047.0, "elapsed_ms_exact": 1047.000000020489, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "f9f34a29e90e0b70aabe0c141032b517e3e64caa6f7c86d53c70fd27119d1fe0", "sha256": "f9f34a29e90e0b70aabe0c141032b517e3e64caa6f7c86d53c70fd27119d1fe0", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-020"}
+{"event": "assigning", "identity": "after-disconnect-v1-025", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-025", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-021", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1016.0, "elapsed_ms_exact": 1015.999999945052, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "3eaef94abdd1e7a8276b14bc8601464b815cae62c43500cb1527bb4a5baa96d2", "sha256": "3eaef94abdd1e7a8276b14bc8601464b815cae62c43500cb1527bb4a5baa96d2", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-021"}
+{"event": "assigning", "identity": "after-disconnect-v1-026", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-026", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-024", "scenario": "latency", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 453.0, "elapsed_ms_exact": 452.9999999795109, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "357ac8dbf8a1ff422ee45e21a5669f39134efc311d1acfee743e1e9d1251ae50", "sha256": "357ac8dbf8a1ff422ee45e21a5669f39134efc311d1acfee743e1e9d1251ae50", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-024"}
+{"event": "assigning", "identity": "after-disconnect-v1-027", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-027", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-023", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "f541a08cfa7935f9b6553a366242fa36ab672b78acfdbcb775f9c38011da8b9e", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-028", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-028", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-025", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1016.0, "elapsed_ms_exact": 1015.999999945052, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "8be3e3d3c5e3dcb58f9773484c71d0ecdebe871f8a630b6c629aa2f2e63f4916", "sha256": "8be3e3d3c5e3dcb58f9773484c71d0ecdebe871f8a630b6c629aa2f2e63f4916", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-025"}
+{"event": "assigning", "identity": "after-disconnect-v1-029", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-029", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-026", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "04134b6b7c6be5f79deb4ed50794ce0f9861661f22e66afa40b2ac4ad4fbff43", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-030", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-030", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-027", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "04d09f18e12a1158c82b0b48c9b776df6e465ef785a4b3480cbea60d09501be3", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-031", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-031", "scenario": "small", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-031", "scenario": "small", "strategy": "resume", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 16.0, "elapsed_ms_exact": 15.999999945051968, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "2023f4466de932d865fa8a82a821d66f5afb1199b21af4f3a78274ec8174a0c3", "sha256": "2023f4466de932d865fa8a82a821d66f5afb1199b21af4f3a78274ec8174a0c3", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-031"}
+{"event": "assigning", "identity": "after-disconnect-v1-032", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-032", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-028", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1031.0, "elapsed_ms_exact": 1030.9999999590218, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "3716f1ab1596a82a9f809e6f773f33f55e8c45c4c52798c1bf94994716094574", "sha256": "3716f1ab1596a82a9f809e6f773f33f55e8c45c4c52798c1bf94994716094574", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-028"}
+{"event": "assigning", "identity": "after-disconnect-v1-033", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-033", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-029", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1047.0, "elapsed_ms_exact": 1047.000000020489, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "c5dbaf691d4f0891e65805a1627a421884808c25ed13f414571e7fa08a3f9127", "sha256": "c5dbaf691d4f0891e65805a1627a421884808c25ed13f414571e7fa08a3f9127", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-029"}
+{"event": "assigning", "identity": "after-disconnect-v1-034", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-034", "scenario": "latency", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-032", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 265.0, "elapsed_ms_exact": 265.00000001396984, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "205ecb0ef4c88f2a5241556e44199920704f31fe38b8581baddeb011ffca3e17", "sha256": "205ecb0ef4c88f2a5241556e44199920704f31fe38b8581baddeb011ffca3e17", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-032"}
+{"event": "assigning", "identity": "after-disconnect-v1-035", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-035", "scenario": "small", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-035", "scenario": "small", "strategy": "whole", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 16.0, "elapsed_ms_exact": 15.999999945051968, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "59d330ca2f912434786d24f2168241f9c8b3166a544c12f8c37df5d0545223a3", "sha256": "59d330ca2f912434786d24f2168241f9c8b3166a544c12f8c37df5d0545223a3", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-035"}
+{"event": "assigning", "identity": "after-disconnect-v1-036", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-036", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-034", "scenario": "latency", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 437.0, "elapsed_ms_exact": 437.00000003445894, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "d5f97897c9a2267f015f2f79f097b0f8d6e0a61a5d2e317a767a45d27f3c80da", "sha256": "d5f97897c9a2267f015f2f79f097b0f8d6e0a61a5d2e317a767a45d27f3c80da", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-034"}
+{"event": "assigning", "identity": "after-disconnect-v1-037", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-037", "scenario": "latency", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-030", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 711065, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "7136319919bfa073d6d7f8fd0e327db4d499417324b346538387bc03253002fd", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-038", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-038", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-033", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1031.0, "elapsed_ms_exact": 1030.9999999590218, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "4277647b3f2003124ed10bc9d3773f371be458233c6ef287b73a342d98b606e8", "sha256": "4277647b3f2003124ed10bc9d3773f371be458233c6ef287b73a342d98b606e8", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-033"}
+{"event": "assigning", "identity": "after-disconnect-v1-039", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-039", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-037", "scenario": "latency", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 454.0, "elapsed_ms_exact": 454.00000002700835, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "cf92446fe85f7ea5e8d0a0e345e68a7fb3aa1358ea8542d1a603e6e1409ba4a5", "sha256": "cf92446fe85f7ea5e8d0a0e345e68a7fb3aa1358ea8542d1a603e6e1409ba4a5", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-037"}
+{"event": "assigning", "identity": "after-disconnect-v1-040", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-040", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-036", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1063.0, "elapsed_ms_exact": 1062.999999965541, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "3c39dc850327b9ed44296b3b5423f83d74226a61f4cd600fa812c32d4375b0e0", "sha256": "3c39dc850327b9ed44296b3b5423f83d74226a61f4cd600fa812c32d4375b0e0", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-036"}
+{"event": "assigning", "identity": "after-disconnect-v1-041", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-041", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-041", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 281.0, "elapsed_ms_exact": 280.9999999590218, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "0bd9ca5b25cf105b4e2abbac4f3fda25a8bfb1d0bf1685a62448ee619246189c", "sha256": "0bd9ca5b25cf105b4e2abbac4f3fda25a8bfb1d0bf1685a62448ee619246189c", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-041"}
+{"event": "assigning", "identity": "after-disconnect-v1-042", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-042", "scenario": "latency", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-038", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1031.0, "elapsed_ms_exact": 1030.9999999590218, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "019890b7f1508b75c7893b4edfaada06a373fa0b6c28525dd9b8ffca27e599f0", "sha256": "019890b7f1508b75c7893b4edfaada06a373fa0b6c28525dd9b8ffca27e599f0", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-038"}
+{"event": "assigning", "identity": "after-disconnect-v1-043", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-043", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-043", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 250.0, "elapsed_ms_exact": 250.0, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "74194ba4045b968b1b6ea64119ea762f437a2b4acccc951092455aaf51bcb789", "sha256": "74194ba4045b968b1b6ea64119ea762f437a2b4acccc951092455aaf51bcb789", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-043"}
+{"event": "assigning", "identity": "after-disconnect-v1-044", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-044", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-039", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 711065, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "ef606eb3ee5b773bdb7acb000b2dcd55beafce2e3493c8ef560931f0ad193345", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-045", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-045", "scenario": "latency", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-040", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 711065, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "45fa57259db9f4d8bbef66fb96af59b97360418a667521a9d5ee86c0001bca06", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-046", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-046", "scenario": "small", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-046", "scenario": "small", "strategy": "whole", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 31.0, "elapsed_ms_exact": 30.999999959021807, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "c6e4d20495ab0c373276c2b7c204b4053a5a87f1ba7b176586483b150a07a550", "sha256": "c6e4d20495ab0c373276c2b7c204b4053a5a87f1ba7b176586483b150a07a550", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-046"}
+{"event": "assigning", "identity": "after-disconnect-v1-047", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-047", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-047", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 328.0, "elapsed_ms_exact": 327.9999999795109, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "4959dd1d652e2b66913884280227ff7fc515f288a00b16971809f5c0bfa5a614", "sha256": "4959dd1d652e2b66913884280227ff7fc515f288a00b16971809f5c0bfa5a614", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-047"}
+{"event": "assigning", "identity": "after-disconnect-v1-048", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-048", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-042", "scenario": "latency", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 327680, "confirmed_bytes": 327680, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 6, "disconnects": 0, "expected_sha256": "319fb6342bd1e0c6667dd46046be2169d00a2a9cbaeac554fcfe7ca28d415504", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-049", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-049", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-044", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1015.0, "elapsed_ms_exact": 1015.0000000139698, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "0eba88ec03b7cbfb5516ac92431629d691f0769d2b57dd432e5f1fdeacb0ba33", "sha256": "0eba88ec03b7cbfb5516ac92431629d691f0769d2b57dd432e5f1fdeacb0ba33", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-044"}
+{"event": "assigning", "identity": "after-disconnect-v1-050", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-050", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-045", "scenario": "latency", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 327680, "confirmed_bytes": 327680, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 6, "disconnects": 0, "expected_sha256": "01715a89abbfa29991e739745aba37fe7b12f482cd9b88852213518784f898f6", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-051", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-051", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-049", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1094.0, "elapsed_ms_exact": 1094.0000000409782, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "bf03ad33205babc89bf5ad9ae1dfdf625b0e24b857fd0b07c6ef10df8316e2e2", "sha256": "bf03ad33205babc89bf5ad9ae1dfdf625b0e24b857fd0b07c6ef10df8316e2e2", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-049"}
+{"event": "assigning", "identity": "after-disconnect-v1-052", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-052", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-048", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "8567a2516a7e9c42d85afa1b1eeae91f91df99e630c0bf23e02384b59dd605a7", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-053", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-053", "scenario": "latency", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-050", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1016.0, "elapsed_ms_exact": 1015.999999945052, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "006e9bbfba631fd4b91ada3466829c304e35ef8bc6abae901eb11686a2fd042b", "sha256": "006e9bbfba631fd4b91ada3466829c304e35ef8bc6abae901eb11686a2fd042b", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-050"}
+{"event": "assigning", "identity": "after-disconnect-v1-054", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-054", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-052", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 266.0, "elapsed_ms_exact": 265.99999994505197, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "94375675e76476df3feefdc412b6e95a4b66f8d9a38c626aa09d82905974be9e", "sha256": "94375675e76476df3feefdc412b6e95a4b66f8d9a38c626aa09d82905974be9e", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-052"}
+{"event": "assigning", "identity": "after-disconnect-v1-055", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-055", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-055", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 313.0, "elapsed_ms_exact": 312.99999996554106, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "b7f3a419152c256c5c0ac265107d993e5f25e45c0be4ffbc56d5a01022016a08", "sha256": "b7f3a419152c256c5c0ac265107d993e5f25e45c0be4ffbc56d5a01022016a08", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-055"}
+{"event": "assigning", "identity": "after-disconnect-v1-056", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-056", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-051", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 711065, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "7935d137d0c260356d077259330ad97788d23eee304ccf6c0c3726fa7f2793a3", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-057", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-057", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-056", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 250.0, "elapsed_ms_exact": 250.0, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "5ef34d2691ba488c8a791551154247e4781f6806f013c4cf1a6c90476627c6db", "sha256": "5ef34d2691ba488c8a791551154247e4781f6806f013c4cf1a6c90476627c6db", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-056"}
+{"event": "assigning", "identity": "after-disconnect-v1-058", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-058", "scenario": "small", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-058", "scenario": "small", "strategy": "resume", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 16.0, "elapsed_ms_exact": 16.00000006146729, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "74d76e7af281ab0b658e1312e74955c9421b91b4a32a0b003177de2f03194b73", "sha256": "74d76e7af281ab0b658e1312e74955c9421b91b4a32a0b003177de2f03194b73", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-058"}
+{"event": "assigning", "identity": "after-disconnect-v1-059", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-059", "scenario": "latency", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-057", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 266.0, "elapsed_ms_exact": 265.99999994505197, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "c49acea265f940e61e113888a442712fd17b2de8ce04cb63c651095f543df0c1", "sha256": "c49acea265f940e61e113888a442712fd17b2de8ce04cb63c651095f543df0c1", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-057"}
+{"event": "assigning", "identity": "after-disconnect-v1-060", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-060", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-053", "scenario": "latency", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 327680, "confirmed_bytes": 327680, "elapsed_ms": 1265.0, "elapsed_ms_exact": 1265.0000000139698, "deadline_ms": 1250, "attempts": 6, "disconnects": 0, "expected_sha256": "1d32b76172ada9bf5aedeca1b6ce933e519298c56aaa025747741af92b670268", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-061", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-061", "scenario": "small", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-061", "scenario": "small", "strategy": "whole", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 31.0, "elapsed_ms_exact": 31.00000007543713, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "e3b49e97d8ca772399b89e26ab710ee6692cc4289f6102c0cf5253216fba0d67", "sha256": "e3b49e97d8ca772399b89e26ab710ee6692cc4289f6102c0cf5253216fba0d67", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-061"}
+{"event": "assigning", "identity": "after-disconnect-v1-062", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-062", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-054", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "358dfa555d2935ba3bd0b539008bf6613155b5d29f457cdbaa36bf60fa98ceb3", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "observed", "identity": "after-disconnect-v1-059", "scenario": "latency", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 453.0, "elapsed_ms_exact": 452.9999999795109, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "12b1d703a82646fa9d2b1d4b90d1aa58e50ceaa85aacb9f553ccfdf3038046dc", "sha256": "12b1d703a82646fa9d2b1d4b90d1aa58e50ceaa85aacb9f553ccfdf3038046dc", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-059"}
+{"event": "assigning", "identity": "after-disconnect-v1-063", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-063", "scenario": "stable", "strategy": "resume"}
+{"event": "assigning", "identity": "after-disconnect-v1-064", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-064", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-063", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 297.0, "elapsed_ms_exact": 297.0000000204891, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "ad31b995904c855cfe300e39a0e68edbe28682982cc6acc509228811d1be08fa", "sha256": "ad31b995904c855cfe300e39a0e68edbe28682982cc6acc509228811d1be08fa", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-063"}
+{"event": "assigning", "identity": "after-disconnect-v1-065", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-065", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-060", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1031.0, "elapsed_ms_exact": 1030.9999999590218, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "ac24e671c72185c5f5220008bf33a3e7e510dfed52bb16bffd966d604696cf45", "sha256": "ac24e671c72185c5f5220008bf33a3e7e510dfed52bb16bffd966d604696cf45", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-060"}
+{"event": "assigning", "identity": "after-disconnect-v1-066", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-066", "scenario": "small", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-066", "scenario": "small", "strategy": "whole", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 31.0, "elapsed_ms_exact": 30.999999959021807, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "d3e2594fdec8b555095673c0dd61b3d144fe8b95a6d19ade6ccaf880af1d9496", "sha256": "d3e2594fdec8b555095673c0dd61b3d144fe8b95a6d19ade6ccaf880af1d9496", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-066"}
+{"event": "assigning", "identity": "after-disconnect-v1-067", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-067", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-062", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1047.0, "elapsed_ms_exact": 1047.000000020489, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "31a7e503e19675043460599437574c5a81988242d30ca957a0577f547839511e", "sha256": "31a7e503e19675043460599437574c5a81988242d30ca957a0577f547839511e", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-062"}
+{"event": "assigning", "identity": "after-disconnect-v1-068", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-068", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-064", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "3b6a19956fe4c543def2887560510a2f97ab1c5e8ba94c1259d0cd75836410ef", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-069", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-069", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-065", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 711065, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "f98ebf394e73d823c66f7afd93741de91f081e7267a7bc2cc4f32b30e168ac09", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-070", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-070", "scenario": "latency", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-067", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1078.0, "elapsed_ms_exact": 1077.999999979511, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "b0dc5f23610d1378479e0f8b841b9bd26d383215d113dd1872fd54221e6d5b22", "sha256": "b0dc5f23610d1378479e0f8b841b9bd26d383215d113dd1872fd54221e6d5b22", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-067"}
+{"event": "assigning", "identity": "after-disconnect-v1-071", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-071", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-068", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1047.0, "elapsed_ms_exact": 1046.9999999040738, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "8d1d99987d9cef90bcb46c8796466f0f7db9cf7db6d32c19960d03fc2a24bd2b", "sha256": "8d1d99987d9cef90bcb46c8796466f0f7db9cf7db6d32c19960d03fc2a24bd2b", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-068"}
+{"event": "assigning", "identity": "after-disconnect-v1-072", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-072", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-070", "scenario": "latency", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 454.0, "elapsed_ms_exact": 454.00000002700835, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "f650ee966031d572176617955d1590a2a14bf3a6c68b073a78bb5ffbef384246", "sha256": "f650ee966031d572176617955d1590a2a14bf3a6c68b073a78bb5ffbef384246", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-070"}
+{"event": "assigning", "identity": "after-disconnect-v1-073", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-073", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-072", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 250.0, "elapsed_ms_exact": 250.0, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "e0dbe05c05981687381d987bbcfca259dfb5de72a3fccc65b6c9f77c62ab536d", "sha256": "e0dbe05c05981687381d987bbcfca259dfb5de72a3fccc65b6c9f77c62ab536d", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-072"}
+{"event": "assigning", "identity": "after-disconnect-v1-074", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-074", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-069", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1063.0, "elapsed_ms_exact": 1062.999999965541, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "5d08beaf87415a5b739e4232aff2216b9ace47191200cca9a1e0b08d21ed5a9a", "sha256": "5d08beaf87415a5b739e4232aff2216b9ace47191200cca9a1e0b08d21ed5a9a", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-069"}
+{"event": "assigning", "identity": "after-disconnect-v1-075", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-075", "scenario": "small", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-075", "scenario": "small", "strategy": "whole", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 32.0, "elapsed_ms_exact": 32.00000000651926, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "b9a78f19ea9951f30f0e1401d1c91d9d1da8c80f4d4b638bdcab744151a19b26", "sha256": "b9a78f19ea9951f30f0e1401d1c91d9d1da8c80f4d4b638bdcab744151a19b26", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-075"}
+{"event": "assigning", "identity": "after-disconnect-v1-076", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-076", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-076", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 297.0, "elapsed_ms_exact": 297.0000000204891, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "81fc5d02b9879745f4452b24a369cb505386a9fd8ba94cb8c21131cfba5724ea", "sha256": "81fc5d02b9879745f4452b24a369cb505386a9fd8ba94cb8c21131cfba5724ea", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-076"}
+{"event": "assigning", "identity": "after-disconnect-v1-077", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-077", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-071", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1094.0, "elapsed_ms_exact": 1094.0000000409782, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "7cdb7d1f0c78d7dea5479e72b0c4b308e415f9e5c3243595e6b46e0733070744", "sha256": "7cdb7d1f0c78d7dea5479e72b0c4b308e415f9e5c3243595e6b46e0733070744", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-071"}
+{"event": "assigning", "identity": "after-disconnect-v1-078", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-078", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-073", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1016.0, "elapsed_ms_exact": 1015.999999945052, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "e75077fdb2feb06ddfd725625156674d49d43c5bd084c2fd77c5b33356f42b4d", "sha256": "e75077fdb2feb06ddfd725625156674d49d43c5bd084c2fd77c5b33356f42b4d", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-073"}
+{"event": "assigning", "identity": "after-disconnect-v1-079", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-079", "scenario": "latency", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-077", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 282.0, "elapsed_ms_exact": 282.00000000651926, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "d09f59f2f6927392c7bb477e806b6856822f6a769f849190e5326ae93f79e9fd", "sha256": "d09f59f2f6927392c7bb477e806b6856822f6a769f849190e5326ae93f79e9fd", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-077"}
+{"event": "assigning", "identity": "after-disconnect-v1-080", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-080", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-074", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 984.0, "elapsed_ms_exact": 984.000000054948, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "8c7fa29516bc68e586b1a5a9383df790d0e48abc14f95b73b07775d6c0512e01", "sha256": "8c7fa29516bc68e586b1a5a9383df790d0e48abc14f95b73b07775d6c0512e01", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-074"}
+{"event": "assigning", "identity": "after-disconnect-v1-081", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-081", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-078", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 360.0, "elapsed_ms_exact": 359.99999998603016, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "b002308beced52a7c2ea89e971eadf6e48af7e02ce9e7e6c954d352dc4c89119", "sha256": "b002308beced52a7c2ea89e971eadf6e48af7e02ce9e7e6c954d352dc4c89119", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-078"}
+{"event": "assigning", "identity": "after-disconnect-v1-082", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-082", "scenario": "small", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-079", "scenario": "latency", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 484.0, "elapsed_ms_exact": 484.00000005494803, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "0b129a348e94f788b0a97e722521bcd44f860d3f69b8f180b2e724eb25b3545c", "sha256": "0b129a348e94f788b0a97e722521bcd44f860d3f69b8f180b2e724eb25b3545c", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-079"}
+{"event": "assigning", "identity": "after-disconnect-v1-083", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-083", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-082", "scenario": "small", "strategy": "resume", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 15.0, "elapsed_ms_exact": 15.000000013969839, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "ac271b9a60a733ba4e14bc9e96045c5d6da0b49bd0b3a0cfcd4d1f0341310490", "sha256": "ac271b9a60a733ba4e14bc9e96045c5d6da0b49bd0b3a0cfcd4d1f0341310490", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-082"}
+{"event": "assigning", "identity": "after-disconnect-v1-084", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-084", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-081", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 390.0, "elapsed_ms_exact": 390.00000001396984, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "b4809f3e4387d530839ea761e2ef30490aa748025cb652d919c4d68908835b2f", "sha256": "b4809f3e4387d530839ea761e2ef30490aa748025cb652d919c4d68908835b2f", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-081"}
+{"event": "assigning", "identity": "after-disconnect-v1-085", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-085", "scenario": "latency", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-085", "scenario": "latency", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 453.0, "elapsed_ms_exact": 452.9999999795109, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "3113a1b1e4431fb6c5ceb7fda694461493d155dbac372cd9131213ffe7ec2533", "sha256": "3113a1b1e4431fb6c5ceb7fda694461493d155dbac372cd9131213ffe7ec2533", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-085"}
+{"event": "assigning", "identity": "after-disconnect-v1-086", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-086", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-080", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "ecc8f39f72a0653a84319fd7a3883d97cef0ee9e3e10c1ae6b6fe20f4507564f", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-087", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-087", "scenario": "latency", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-083", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 985.0, "elapsed_ms_exact": 984.9999999860302, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "ed25e967c09786046aa1a0ac4463ae3f7f25ced9dd1a1d5f300297801d6edc56", "sha256": "ed25e967c09786046aa1a0ac4463ae3f7f25ced9dd1a1d5f300297801d6edc56", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-083"}
+{"event": "assigning", "identity": "after-disconnect-v1-088", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-088", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-084", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1000.0, "elapsed_ms_exact": 1000.0, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "77b5887be0bd272e46b84900c79a11fd37e4d19518f9a7ee2358a0def0474792", "sha256": "77b5887be0bd272e46b84900c79a11fd37e4d19518f9a7ee2358a0def0474792", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-084"}
+{"event": "assigning", "identity": "after-disconnect-v1-089", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-089", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-086", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1047.0, "elapsed_ms_exact": 1046.9999999040738, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "774d7a4c78ff31bcb8fadf0661ded6ae8d3377565866cc1b61558014efebeb82", "sha256": "774d7a4c78ff31bcb8fadf0661ded6ae8d3377565866cc1b61558014efebeb82", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-086"}
+{"event": "assigning", "identity": "after-disconnect-v1-090", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-090", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-087", "scenario": "latency", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 327680, "confirmed_bytes": 327680, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 6, "disconnects": 0, "expected_sha256": "92ff1a8c14f1b7e6e5401c96a41a084d266bf16c77d7202e3090be5ff50a8f05", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-091", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-091", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-090", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 265.0, "elapsed_ms_exact": 265.00000001396984, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "ea6a2df3d57e0b1f8b4aa35b5aacc59ed15cc43aa496231badf1306a88ac52f0", "sha256": "ea6a2df3d57e0b1f8b4aa35b5aacc59ed15cc43aa496231badf1306a88ac52f0", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-090"}
+{"event": "assigning", "identity": "after-disconnect-v1-092", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-092", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-089", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1047.0, "elapsed_ms_exact": 1047.000000020489, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "4822b36304174f5492cd613435cf713592f919e1ebd20ec2c8135f20c03828ad", "sha256": "4822b36304174f5492cd613435cf713592f919e1ebd20ec2c8135f20c03828ad", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-089"}
+{"event": "assigning", "identity": "after-disconnect-v1-093", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-093", "scenario": "small", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-093", "scenario": "small", "strategy": "resume", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 32.0, "elapsed_ms_exact": 32.00000000651926, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "81dbf65faf6e72ea328b7f995704886fc3fb202b165bcf9fbde09f1ba9c1ecac", "sha256": "81dbf65faf6e72ea328b7f995704886fc3fb202b165bcf9fbde09f1ba9c1ecac", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-093"}
+{"event": "assigning", "identity": "after-disconnect-v1-094", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-094", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-088", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "616a493c9a477f9a781122f932839c81055320ea8309d6ea8b9100d328ad36da", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-095", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-095", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-092", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1094.0, "elapsed_ms_exact": 1094.0000000409782, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "cd04e8be6cba46cbc82779c56c0ae7338dd79864d2d0335275a90a2f6d1eaf08", "sha256": "cd04e8be6cba46cbc82779c56c0ae7338dd79864d2d0335275a90a2f6d1eaf08", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-092"}
+{"event": "assigning", "identity": "after-disconnect-v1-096", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-096", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-091", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 711065, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "4bbd4c6bf6f1507f0aaf6731821c10be0ed6ecb3cab154d08718b533cb12f507", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-097", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-097", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-094", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1094.0, "elapsed_ms_exact": 1094.0000000409782, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "d9af6873061b52f5d69515fbb5acf13b026242a3fb974620a933a95c4aa1a0a9", "sha256": "d9af6873061b52f5d69515fbb5acf13b026242a3fb974620a933a95c4aa1a0a9", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-094"}
+{"event": "assigning", "identity": "after-disconnect-v1-098", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-098", "scenario": "small", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-095", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1063.0, "elapsed_ms_exact": 1062.999999965541, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "88d14fcb154666373677490a3b2c7ac2bfcd9ee4758e7d15a65274b4aa701081", "sha256": "88d14fcb154666373677490a3b2c7ac2bfcd9ee4758e7d15a65274b4aa701081", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-095"}
+{"event": "assigning", "identity": "after-disconnect-v1-099", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-099", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-098", "scenario": "small", "strategy": "whole", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 16.0, "elapsed_ms_exact": 15.999999945051968, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "8f547ed814d95e87b2c960035708e9ed5f18b9c2748579e5cc3d3e62eefde25f", "sha256": "8f547ed814d95e87b2c960035708e9ed5f18b9c2748579e5cc3d3e62eefde25f", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-098"}
+{"event": "assigning", "identity": "after-disconnect-v1-100", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-100", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-097", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 266.0, "elapsed_ms_exact": 265.99999994505197, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "928cf0c8844a008247f226671990d5395f0182ae656221d95c68b2d3235020a8", "sha256": "928cf0c8844a008247f226671990d5395f0182ae656221d95c68b2d3235020a8", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-097"}
+{"event": "assigning", "identity": "after-disconnect-v1-101", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-101", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-096", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 711065, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "010c532fe6c564aa33c05d57c0116a10ee98fe732c1a9645e9251b4cf0c65103", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-102", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-102", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-101", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1046.0, "elapsed_ms_exact": 1045.9999999729916, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "9cb527b61740d185b8f37087986fd570602bbe35f7658551139b22535d10d484", "sha256": "9cb527b61740d185b8f37087986fd570602bbe35f7658551139b22535d10d484", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-101"}
+{"event": "assigning", "identity": "after-disconnect-v1-103", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-103", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-099", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "15b6fad6c6c4760c1b9fc2595b310e98f77bd7a65bb3f09b17f7f4b330a2e800", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-104", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-104", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-100", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 711065, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "0417d2b3481a8d6c0046785e5b0704c0bde252c110e32d53778cc399b8920b6d", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-105", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-105", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-105", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 250.0, "elapsed_ms_exact": 250.0, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "3ea4f529e6b91a4216515bf33ed4a22b6050aa208869d092d7da227280efe6de", "sha256": "3ea4f529e6b91a4216515bf33ed4a22b6050aa208869d092d7da227280efe6de", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-105"}
+{"event": "assigning", "identity": "after-disconnect-v1-106", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-106", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-102", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1109.0, "elapsed_ms_exact": 1109.000000054948, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "9ad7e4c1a9477ab4b293f6d19215792763eb6bb56b7941155105da15c122333e", "sha256": "9ad7e4c1a9477ab4b293f6d19215792763eb6bb56b7941155105da15c122333e", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-102"}
+{"event": "assigning", "identity": "after-disconnect-v1-107", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-107", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-103", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "e2f74277c9ec267b45fc13ecb96dd36b7d8fb55744968057f6fb79f29f34e772", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-108", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-108", "scenario": "small", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-104", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "07d8dc77cdb926175b09d8f40daa3d3a3151a94fcc6fb11fa7e320bd6f1cef9c", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-109", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-109", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-107", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 344.0, "elapsed_ms_exact": 343.99999992456287, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "0a6cb58192dc672e2c3f435f9cc320086560eea9c4f274c76078c5cc3a540b47", "sha256": "0a6cb58192dc672e2c3f435f9cc320086560eea9c4f274c76078c5cc3a540b47", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-107"}
+{"event": "observed", "identity": "after-disconnect-v1-108", "scenario": "small", "strategy": "resume", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 16.0, "elapsed_ms_exact": 15.999999945051968, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "4a57eefe8b41bd811962487ada3a1b249e487dcecbb10f759c4ad2ddf4f778a6", "sha256": "4a57eefe8b41bd811962487ada3a1b249e487dcecbb10f759c4ad2ddf4f778a6", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-108"}
+{"event": "assigning", "identity": "after-disconnect-v1-110", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-110", "scenario": "stable", "strategy": "resume"}
+{"event": "assigning", "identity": "after-disconnect-v1-111", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-111", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-106", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1016.0, "elapsed_ms_exact": 1016.0000000614673, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "bb43a55e8febb8429cca1fdda8686623fb1b020bdd899925a9461de9176d8aff", "sha256": "bb43a55e8febb8429cca1fdda8686623fb1b020bdd899925a9461de9176d8aff", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-106"}
+{"event": "assigning", "identity": "after-disconnect-v1-112", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-112", "scenario": "latency", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-109", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 250.0, "elapsed_ms_exact": 250.0, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "0bc44205a41015eba36a330968e490161939f0eabeb2079899d575587514528b", "sha256": "0bc44205a41015eba36a330968e490161939f0eabeb2079899d575587514528b", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-109"}
+{"event": "assigning", "identity": "after-disconnect-v1-113", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-113", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-110", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 297.0, "elapsed_ms_exact": 297.0000000204891, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "a0f0b7d9bb87da684dfb0adc6698c8caba2d8b7a02bcdb2b0f9437c2b4f1b714", "sha256": "a0f0b7d9bb87da684dfb0adc6698c8caba2d8b7a02bcdb2b0f9437c2b4f1b714", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-110"}
+{"event": "assigning", "identity": "after-disconnect-v1-114", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-114", "scenario": "latency", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-113", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 265.0, "elapsed_ms_exact": 265.00000001396984, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "75e78bb7b8a50613e5651a743151b50f10ce50525c9ae562f332acbef4c5f24b", "sha256": "75e78bb7b8a50613e5651a743151b50f10ce50525c9ae562f332acbef4c5f24b", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-113"}
+{"event": "assigning", "identity": "after-disconnect-v1-115", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-115", "scenario": "latency", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-114", "scenario": "latency", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 453.0, "elapsed_ms_exact": 452.9999999795109, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "1d55a1e89120e26ab1d767c638284258735d9c451ce248254f0d4691ce77ab06", "sha256": "1d55a1e89120e26ab1d767c638284258735d9c451ce248254f0d4691ce77ab06", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-114"}
+{"event": "assigning", "identity": "after-disconnect-v1-116", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-116", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-115", "scenario": "latency", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 438.0, "elapsed_ms_exact": 438.0000000819564, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "a84f7629edea048ab10dc648ae1b0640b3b3b1df1983169418820bab153522b2", "sha256": "a84f7629edea048ab10dc648ae1b0640b3b3b1df1983169418820bab153522b2", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-115"}
+{"event": "assigning", "identity": "after-disconnect-v1-117", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-117", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-111", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 711065, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "92e4d07f8e94f950929a4a206b0c2ccde989ad5c82f3a9b6a7acf1576179ec97", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-118", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-118", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-112", "scenario": "latency", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 327680, "confirmed_bytes": 327680, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 6, "disconnects": 0, "expected_sha256": "83663a873adbeaeff6e79eecf9aab0d9dfa4211fe7aac70a6d2b49e2bd9793ed", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-119", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-119", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-117", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1047.0, "elapsed_ms_exact": 1047.000000020489, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "3c65322b07f4681836c3eeff67a81a1705618d261c040373062664a50014a10c", "sha256": "3c65322b07f4681836c3eeff67a81a1705618d261c040373062664a50014a10c", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-117"}
+{"event": "assigning", "identity": "after-disconnect-v1-120", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-120", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-116", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "e8f7ee34fce39b467786e79227f7ce4404d79bb514c315b5d9d17ed0a499e1ff", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-121", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-121", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-118", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "f985443342a88de1f034caa0db82241b566d31510d370a8b006dbb649ba5cf4d", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-122", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-122", "scenario": "small", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-119", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 743833, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "6b2230aba7fa04148fa8ce90faca743974428fe9a152f06ec00506993644692d", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-123", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-123", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-122", "scenario": "small", "strategy": "resume", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 16.0, "elapsed_ms_exact": 15.999999945051968, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "a7d87b420e34cfc9998e8749f7bf1ab0dcc34570ec11a82bf3eee5ae3a235164", "sha256": "a7d87b420e34cfc9998e8749f7bf1ab0dcc34570ec11a82bf3eee5ae3a235164", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-122"}
+{"event": "assigning", "identity": "after-disconnect-v1-124", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-124", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-123", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 360.0, "elapsed_ms_exact": 359.99999998603016, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "870573d2d96b3b651bef847414b99027f1821d4df0d6d6dd75f02ee2cb13f50a", "sha256": "870573d2d96b3b651bef847414b99027f1821d4df0d6d6dd75f02ee2cb13f50a", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-123"}
+{"event": "assigning", "identity": "after-disconnect-v1-125", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-125", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-120", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1078.0, "elapsed_ms_exact": 1077.999999979511, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "0d2b514977cab316edd325a04135ad80de62c3a53fff1476335270832e3b62d1", "sha256": "0d2b514977cab316edd325a04135ad80de62c3a53fff1476335270832e3b62d1", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-120"}
+{"event": "assigning", "identity": "after-disconnect-v1-126", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-126", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-125", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 250.0, "elapsed_ms_exact": 250.0, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "062f8b2cd538be3ea983923a0ce5ff1576f5804626acaef85657ebe7127adc33", "sha256": "062f8b2cd538be3ea983923a0ce5ff1576f5804626acaef85657ebe7127adc33", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-125"}
+{"event": "assigning", "identity": "after-disconnect-v1-127", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-127", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-121", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "49f6681bbb2e4137784603c2ff16d826bb1341432cfd0699a8c0dd0747d2be4f", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-128", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-128", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-124", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1094.0, "elapsed_ms_exact": 1093.9999999245629, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "02afd92d61d7d9a52f17f85559789222dd4192427aa139eeaa86503b042eaf82", "sha256": "02afd92d61d7d9a52f17f85559789222dd4192427aa139eeaa86503b042eaf82", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-124"}
+{"event": "assigning", "identity": "after-disconnect-v1-129", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-129", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-128", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 359.0, "elapsed_ms_exact": 359.00000005494803, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "5122a34487aa1366cc9815179f883f47d335f2af643c09c4ea36a8dd9650ad0a", "sha256": "5122a34487aa1366cc9815179f883f47d335f2af643c09c4ea36a8dd9650ad0a", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-128"}
+{"event": "assigning", "identity": "after-disconnect-v1-130", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-130", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-129", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 343.0, "elapsed_ms_exact": 342.99999999348074, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "99a576da102bebb8ff23a76c3e761e538a4c857b1ae3dd1063e6de93fb05a631", "sha256": "99a576da102bebb8ff23a76c3e761e538a4c857b1ae3dd1063e6de93fb05a631", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-129"}
+{"event": "assigning", "identity": "after-disconnect-v1-131", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-131", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-130", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 328.0, "elapsed_ms_exact": 327.9999999795109, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "dce5ed13934b7f4ef51e7582703aa8862f576947dea9cc8a3f6894f42676f99a", "sha256": "dce5ed13934b7f4ef51e7582703aa8862f576947dea9cc8a3f6894f42676f99a", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-130"}
+{"event": "assigning", "identity": "after-disconnect-v1-132", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-132", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-126", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1047.0, "elapsed_ms_exact": 1047.000000020489, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "c4f9409e19e57b93ce607f959350911bc80ef72fe46c60db3226fca25133c5bc", "sha256": "c4f9409e19e57b93ce607f959350911bc80ef72fe46c60db3226fca25133c5bc", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-126"}
+{"event": "assigning", "identity": "after-disconnect-v1-133", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-133", "scenario": "small", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-133", "scenario": "small", "strategy": "resume", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 15.0, "elapsed_ms_exact": 15.000000013969839, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "4294ab8eb62bf7eff44d2a5c7a9f831ffcc5467078c5a8c431821c689cc73ebb", "sha256": "4294ab8eb62bf7eff44d2a5c7a9f831ffcc5467078c5a8c431821c689cc73ebb", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-133"}
+{"event": "assigning", "identity": "after-disconnect-v1-134", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-134", "scenario": "latency", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-127", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1063.0, "elapsed_ms_exact": 1062.999999965541, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "51ca544655ddd6edcb32853eaf9d91cd6de8c4804d080d2cef8dd94325f5f5b5", "sha256": "51ca544655ddd6edcb32853eaf9d91cd6de8c4804d080d2cef8dd94325f5f5b5", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-127"}
+{"event": "assigning", "identity": "after-disconnect-v1-135", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-135", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-131", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 344.0, "elapsed_ms_exact": 344.0000000409782, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "7b73f1f1c356748d35bc3f580e4c11b90173fb72d6496d67c7b41ffcb96840ef", "sha256": "7b73f1f1c356748d35bc3f580e4c11b90173fb72d6496d67c7b41ffcb96840ef", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-131"}
+{"event": "assigning", "identity": "after-disconnect-v1-136", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-136", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-134", "scenario": "latency", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 469.0, "elapsed_ms_exact": 468.99999992456287, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "48100c938d76ae09cabef7f48f13edc4cbfe2cd4121ff25f9842ea52e2117b08", "sha256": "48100c938d76ae09cabef7f48f13edc4cbfe2cd4121ff25f9842ea52e2117b08", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-134"}
+{"event": "assigning", "identity": "after-disconnect-v1-137", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-137", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-136", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 312.0, "elapsed_ms_exact": 311.9999999180436, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "9cb649edee7ae4cce9b49fc3368e6091d958ad0f1f1892ea3d416b80bd47cff4", "sha256": "9cb649edee7ae4cce9b49fc3368e6091d958ad0f1f1892ea3d416b80bd47cff4", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-136"}
+{"event": "assigning", "identity": "after-disconnect-v1-138", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-138", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-137", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 265.0, "elapsed_ms_exact": 265.00000001396984, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "43cec7fbebc97a551a33c9fbc4828e9149a4db04791f33d157f7c6076489c784", "sha256": "43cec7fbebc97a551a33c9fbc4828e9149a4db04791f33d157f7c6076489c784", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-137"}
+{"event": "assigning", "identity": "after-disconnect-v1-139", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-139", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-138", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 266.0, "elapsed_ms_exact": 266.0000000614673, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "14ef3dd135960df1ec391ea1a4a3f9e281584004dcbe0e6616d81c16bcebb414", "sha256": "14ef3dd135960df1ec391ea1a4a3f9e281584004dcbe0e6616d81c16bcebb414", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-138"}
+{"event": "assigning", "identity": "after-disconnect-v1-140", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-140", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-132", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 711065, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "4e1c9a348c19a3b21319d9faac90b9f22ec202b2aaae18e413e5abac7fb6b42f", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-141", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-141", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-135", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1063.0, "elapsed_ms_exact": 1063.0000000819564, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "4b6af7c2ac182edd0f7b9163bdb5819c2c78fefe71c43269f57cdccc20b04516", "sha256": "4b6af7c2ac182edd0f7b9163bdb5819c2c78fefe71c43269f57cdccc20b04516", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-135"}
+{"event": "assigning", "identity": "after-disconnect-v1-142", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-142", "scenario": "latency", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-141", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 282.0, "elapsed_ms_exact": 282.00000000651926, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "8c88eeb90f80db98a5d6869e3b3d55fbbb7e80c5e209bf9854a8a27b8ceaa8d2", "sha256": "8c88eeb90f80db98a5d6869e3b3d55fbbb7e80c5e209bf9854a8a27b8ceaa8d2", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-141"}
+{"event": "assigning", "identity": "after-disconnect-v1-143", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-143", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-139", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1031.0, "elapsed_ms_exact": 1031.0000000754371, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "b5b39389c579cac22c6941a4167197d748401c9eea1cb360a8e9d3e0e919b554", "sha256": "b5b39389c579cac22c6941a4167197d748401c9eea1cb360a8e9d3e0e919b554", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-139"}
+{"event": "assigning", "identity": "after-disconnect-v1-144", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-144", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-140", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1094.0, "elapsed_ms_exact": 1094.0000000409782, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "b4362ff89c489216c76a3d71a75fbbd7ef11264f71f78cb8ceff382b3e35d6cf", "sha256": "b4362ff89c489216c76a3d71a75fbbd7ef11264f71f78cb8ceff382b3e35d6cf", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-140"}
+{"event": "assigning", "identity": "after-disconnect-v1-145", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-145", "scenario": "small", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-145", "scenario": "small", "strategy": "whole", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 31.0, "elapsed_ms_exact": 30.999999959021807, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "c7a6adc8692abca400bd48d2872cb91fdd1927e21340a7b2fbcd3c75a192bad2", "sha256": "c7a6adc8692abca400bd48d2872cb91fdd1927e21340a7b2fbcd3c75a192bad2", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-145"}
+{"event": "assigning", "identity": "after-disconnect-v1-146", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-146", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-142", "scenario": "latency", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 327680, "confirmed_bytes": 327680, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 6, "disconnects": 0, "expected_sha256": "e5d3c22b6d7f92f6cf0b78b3d3a7951ac7992976457b9cffe784021f191fdf2b", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-147", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-147", "scenario": "small", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-143", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1078.0, "elapsed_ms_exact": 1077.999999979511, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "7caa82d8304c02331aab440d79d843057cbd764961b16fab40124c61d9052f94", "sha256": "7caa82d8304c02331aab440d79d843057cbd764961b16fab40124c61d9052f94", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-143"}
+{"event": "assigning", "identity": "after-disconnect-v1-148", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-148", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-147", "scenario": "small", "strategy": "resume", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 31.0, "elapsed_ms_exact": 30.999999959021807, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "f275e24c39654fba38e7115f53d4c918683247f745e6a985787a08c36bb9f2eb", "sha256": "f275e24c39654fba38e7115f53d4c918683247f745e6a985787a08c36bb9f2eb", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-147"}
+{"event": "assigning", "identity": "after-disconnect-v1-149", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-149", "scenario": "stable", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-144", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1031.0, "elapsed_ms_exact": 1030.9999999590218, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "c34d2486151f8fd83e412467a7246d62397f6f6bc2d48cd98d22ab3839883498", "sha256": "c34d2486151f8fd83e412467a7246d62397f6f6bc2d48cd98d22ab3839883498", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-144"}
+{"event": "assigning", "identity": "after-disconnect-v1-150", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-150", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-149", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 329.0, "elapsed_ms_exact": 329.00000002700835, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "7fa96d9c71d67407ea08097738c1835c4a2331749cea46568acc6276733bfee4", "sha256": "7fa96d9c71d67407ea08097738c1835c4a2331749cea46568acc6276733bfee4", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-149"}
+{"event": "assigning", "identity": "after-disconnect-v1-151", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-v1-151", "scenario": "latency", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-146", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1094.0, "elapsed_ms_exact": 1094.0000000409782, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "0d3c868e87b0adcd4be4905f31502e610f77db2a183570b5ec9a5dab394e18d1", "sha256": "0d3c868e87b0adcd4be4905f31502e610f77db2a183570b5ec9a5dab394e18d1", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-146"}
+{"event": "assigning", "identity": "after-disconnect-v1-152", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-152", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-151", "scenario": "latency", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 453.0, "elapsed_ms_exact": 452.9999999795109, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "49edcdf8c20710dde6faef1dff9fb15ce5ad47ff6124bb4146256cbe12f26863", "sha256": "49edcdf8c20710dde6faef1dff9fb15ce5ad47ff6124bb4146256cbe12f26863", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-151"}
+{"event": "assigning", "identity": "after-disconnect-v1-153", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-153", "scenario": "interrupted", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-148", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 711065, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "00912a5d1adfdedc0c1d93042c4b8963b903cbab6e8f7ffc713020b5f62e24f0", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-154", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-v1-154", "scenario": "stable", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-v1-154", "scenario": "stable", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 281.0, "elapsed_ms_exact": 280.9999999590218, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "47665d6a3ec64d71d5a7ad0e6f500ea6acce0985edd5e6ca5daf480df3a06c4f", "sha256": "47665d6a3ec64d71d5a7ad0e6f500ea6acce0985edd5e6ca5daf480df3a06c4f", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-154"}
+{"event": "assigning", "identity": "after-disconnect-v1-155", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-155", "scenario": "small", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-150", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "cce28bb6c29b1870eb1f3e3eb94294bf0da1a229c365919aa5c30b1cf56ef320", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-156", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-v1-156", "scenario": "small", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-155", "scenario": "small", "strategy": "resume", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 16.0, "elapsed_ms_exact": 16.00000006146729, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "14cdc1b6e22dee5cce0f35506adb333ea9fef7fa92eb1e07da38e8680dfeeffe", "sha256": "14cdc1b6e22dee5cce0f35506adb333ea9fef7fa92eb1e07da38e8680dfeeffe", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-155"}
+{"event": "assigning", "identity": "after-disconnect-v1-157", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-157", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-156", "scenario": "small", "strategy": "resume", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 15.0, "elapsed_ms_exact": 15.000000013969839, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "f6def66aecca03b64771bf61969640d7d51c7d5c919efb53fa86fc29f2815b4a", "sha256": "f6def66aecca03b64771bf61969640d7d51c7d5c919efb53fa86fc29f2815b4a", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-156"}
+{"event": "assigning", "identity": "after-disconnect-v1-158", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-158", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-152", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 711065, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "579de700af01e77b033407015a62a14010e93b56cb9a7a73cb37320d7db101ee", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "assigning", "identity": "after-disconnect-v1-159", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-v1-159", "scenario": "interrupted", "strategy": "resume"}
+{"event": "observed", "identity": "after-disconnect-v1-153", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 727449, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "b115e3d4484a8739445bd0e33bc2929617a3da7dcbf93557a91a4661ca3c6e95", "sha256": null, "verified": false, "success": false, "reason": "deadline"}
+{"event": "observed", "identity": "after-disconnect-v1-157", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1047.0, "elapsed_ms_exact": 1047.000000020489, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "9c2cb2b2206ab5703a15a5625b1a26f3bfa61624ea6d607c9d9a023f1c1c88a7", "sha256": "9c2cb2b2206ab5703a15a5625b1a26f3bfa61624ea6d607c9d9a023f1c1c88a7", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-157"}
+{"event": "observed", "identity": "after-disconnect-v1-158", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1078.0, "elapsed_ms_exact": 1077.999999979511, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "b2aade97cc9489e79398ad40bd3443e43a80d7aa79650c708c00e05332a87618", "sha256": "b2aade97cc9489e79398ad40bd3443e43a80d7aa79650c708c00e05332a87618", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-158"}
+{"event": "observed", "identity": "after-disconnect-v1-159", "scenario": "interrupted", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 563609, "confirmed_bytes": 524288, "elapsed_ms": 1016.0, "elapsed_ms_exact": 1016.0000000614673, "deadline_ms": 1250, "attempts": 9, "disconnects": 1, "expected_sha256": "6b22f56524fd218c7ccf0b8864698fc72d2dfec1bfaabfe176a951c6d15e51e5", "sha256": "6b22f56524fd218c7ccf0b8864698fc72d2dfec1bfaabfe176a951c6d15e51e5", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-v1-159"}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#141c24">
+  <title>Afterdrop — Upload lab</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="mast"><div class="shell mast-inner">
+  <a href="/" class="brand" aria-label="Afterdrop home"><i class="sigil" aria-hidden="true"><b></b><b></b><b></b></i>Afterdrop</a>
+  <nav aria-label="Sections"><a href="/" aria-current="page">Upload lab</a><a href="/results.html">Results</a><a href="/results.html#live">Live flag</a></nav>
+</div></header>
+<main class="shell" id="bench">
+  <section class="intro">
+    <div><p class="eyebrow">FLAGSMITH EXPERIMENT · FILE TRANSFER</p>
+    <h1>Should uploads resume<span>?</span></h1>
+    <p class="summary">Run the same file through two upload strategies. Break the link, then try a slow acknowledgement.</p></div>
+    <a class="decision-link" href="/results.html">Why we kept whole-file retry <span aria-hidden="true">↗</span></a>
+  </section>
+  <form class="controls" id="controls">
+    <fieldset><legend>Network profile</legend><div class="profiles" id="profiles">
+      <label><input type="radio" name="scenario" value="interrupted" checked><span>Single drop</span></label>
+      <label><input type="radio" name="scenario" value="stable"><span>Stable link</span></label>
+      <label><input type="radio" name="scenario" value="latency"><span>High latency</span></label>
+      <label><input type="radio" name="scenario" value="small"><span>Small file</span></label>
+    </div></fieldset>
+    <button id="run" type="submit"><span class="play" aria-hidden="true"></span><span id="button-label">Run comparison</span></button>
+  </form>
+  <div class="profile-note" id="profile-note"></div>
+  <div class="cards" id="cards"></div>
+  <div class="run-status" id="run-status" role="status">Ready to run a paired transfer.</div>
+  <section class="evidence" id="receipts">
+    <div class="evidence-heading"><div><p class="eyebrow">INTEGRITY CHECK</p><h2>Transfer receipts</h2></div>
+      <span class="hash-type">SHA-256</span></div>
+    <p class="receipt-note">The server hashes the assembled file. Only a digest match before the deadline counts as a success.</p>
+    <table><thead><tr><th scope="col">Strategy</th><th scope="col">Received digest</th><th scope="col">Outcome</th></tr></thead>
+      <tbody><tr><th scope="row">Whole file</th><td class="digest" id="whole-hash">Awaiting transfer</td><td id="whole-verdict">—</td></tr>
+      <tr><th scope="row">Resumable</th><td class="digest" id="resume-hash">Awaiting transfer</td><td id="resume-verdict">—</td></tr></tbody></table>
+    <details><summary>Source file digest</summary><p class="digest" id="source-hash">Awaiting transfer</p></details>
+  </section>
+  <footer><span>Paired live transfers · Emulated network</span><a href="/results.html">View the recorded A/B results →</a></footer>
+</main>
+<template id="card">
+  <article class="card">
+    <div class="card-head"><div class="card-ident"><i class="glyph" aria-hidden="true"></i><div><p class="variant"></p><h2></h2></div></div><span class="state">Ready</span></div>
+    <p class="method"></p>
+    <div class="graph-wrap"><div class="axis-top"><span>FILE POSITION</span><strong class="pct">0%</strong></div>
+      <canvas aria-label="File position over time"></canvas><div class="axis-foot"><span>0 s</span><span>ELAPSED TIME</span><span class="axis-max">5 s</span></div></div>
+    <dl class="metrics"><div><dt>Bytes sent</dt><dd class="sent">—</dd></div><div><dt>Elapsed</dt><dd class="elapsed">—</dd></div><div><dt>Retries</dt><dd class="retries">—</dd></div></dl>
+  </article>
+</template>
+<script src="/app.js"></script>
+</body>
+</html>

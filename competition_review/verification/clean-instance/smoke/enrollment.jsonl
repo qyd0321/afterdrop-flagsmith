@@ -1,0 +1,15 @@
+{"event": "assigning", "identity": "after-disconnect-smoke-000", "scenario": "interrupted"}
+{"event": "assigned", "identity": "after-disconnect-smoke-000", "scenario": "interrupted", "strategy": "whole"}
+{"event": "assigning", "identity": "after-disconnect-smoke-001", "scenario": "stable"}
+{"event": "assigned", "identity": "after-disconnect-smoke-001", "scenario": "stable", "strategy": "resume"}
+{"event": "assigning", "identity": "after-disconnect-smoke-002", "scenario": "latency"}
+{"event": "assigned", "identity": "after-disconnect-smoke-002", "scenario": "latency", "strategy": "whole"}
+{"event": "assigning", "identity": "after-disconnect-smoke-003", "scenario": "small"}
+{"event": "assigned", "identity": "after-disconnect-smoke-003", "scenario": "small", "strategy": "whole"}
+{"event": "observed", "identity": "after-disconnect-smoke-003", "scenario": "small", "strategy": "whole", "size_bytes": 32768, "wire_bytes": 32768, "confirmed_bytes": 32768, "elapsed_ms": 31.0, "elapsed_ms_exact": 30.999999959021807, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "1a24528b9c6f35fbd94fce662ca85c15124ff808865cc7b9d0bb4f042e7306ee", "sha256": "1a24528b9c6f35fbd94fce662ca85c15124ff808865cc7b9d0bb4f042e7306ee", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-smoke-003"}
+{"event": "observed", "identity": "after-disconnect-smoke-001", "scenario": "stable", "strategy": "resume", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 343.0, "elapsed_ms_exact": 342.99999999348074, "deadline_ms": 1250, "attempts": 8, "disconnects": 0, "expected_sha256": "ba21843780257c3fffeeb7dca2ec159cd8680c74dd90b7b2b345309936d39002", "sha256": "ba21843780257c3fffeeb7dca2ec159cd8680c74dd90b7b2b345309936d39002", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-smoke-001"}
+{"event": "observed", "identity": "after-disconnect-smoke-002", "scenario": "latency", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 524288, "confirmed_bytes": 524288, "elapsed_ms": 453.0, "elapsed_ms_exact": 452.9999999795109, "deadline_ms": 1250, "attempts": 1, "disconnects": 0, "expected_sha256": "ed6a95a3828a0a799a6164d85e9d8da759554903d11ca0b54be3d66fb0828e5a", "sha256": "ed6a95a3828a0a799a6164d85e9d8da759554903d11ca0b54be3d66fb0828e5a", "verified": true, "success": true, "reason": "verified"}
+{"event": "converted", "identity": "after-disconnect-smoke-002"}
+{"event": "observed", "identity": "after-disconnect-smoke-000", "scenario": "interrupted", "strategy": "whole", "size_bytes": 524288, "wire_bytes": 711065, "confirmed_bytes": 0, "elapsed_ms": 1250.0, "elapsed_ms_exact": 1250.0, "deadline_ms": 1250, "attempts": 2, "disconnects": 1, "expected_sha256": "b3c9219b91ccc094e0842c2735a429cb691834dd03f92ed8630d6bdb67cffacb", "sha256": null, "verified": false, "success": false, "reason": "deadline"}

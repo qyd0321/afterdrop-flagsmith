@@ -1,0 +1,87 @@
+{
+  "mode": "flagsmith",
+  "smoke": false,
+  "workers": 4,
+  "groups": {
+    "overall": {
+      "whole": {
+        "n": 83,
+        "successes": 38,
+        "success_rate": 0.4578313253012048,
+        "median_elapsed_success_only_ms": 265.0,
+        "payload_bytes_sent": 47448037
+      },
+      "resume": {
+        "n": 77,
+        "successes": 68,
+        "success_rate": 0.8831168831168831,
+        "median_elapsed_success_only_ms": 1000.0,
+        "payload_bytes_sent": 35061739
+      }
+    },
+    "interrupted": {
+      "whole": {
+        "n": 45,
+        "successes": 0,
+        "success_rate": 0.0,
+        "median_elapsed_success_only_ms": null,
+        "payload_bytes_sent": 32440293
+      },
+      "resume": {
+        "n": 35,
+        "successes": 35,
+        "success_rate": 1.0,
+        "median_elapsed_success_only_ms": 1047.0,
+        "payload_bytes_sent": 19726315
+      }
+    },
+    "stable": {
+      "whole": {
+        "n": 17,
+        "successes": 17,
+        "success_rate": 1.0,
+        "median_elapsed_success_only_ms": 265.0,
+        "payload_bytes_sent": 8912896
+      },
+      "resume": {
+        "n": 23,
+        "successes": 23,
+        "success_rate": 1.0,
+        "median_elapsed_success_only_ms": 328.0,
+        "payload_bytes_sent": 12058624
+      }
+    },
+    "latency": {
+      "whole": {
+        "n": 11,
+        "successes": 11,
+        "success_rate": 1.0,
+        "median_elapsed_success_only_ms": 453.0,
+        "payload_bytes_sent": 5767168
+      },
+      "resume": {
+        "n": 9,
+        "successes": 0,
+        "success_rate": 0.0,
+        "median_elapsed_success_only_ms": null,
+        "payload_bytes_sent": 2949120
+      }
+    },
+    "small": {
+      "whole": {
+        "n": 10,
+        "successes": 10,
+        "success_rate": 1.0,
+        "median_elapsed_success_only_ms": 23.5,
+        "payload_bytes_sent": 327680
+      },
+      "resume": {
+        "n": 10,
+        "successes": 10,
+        "success_rate": 1.0,
+        "median_elapsed_success_only_ms": 16.0,
+        "payload_bytes_sent": 327680
+      }
+    }
+  }
+}

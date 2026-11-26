@@ -1,0 +1,62 @@
+{
+  "experiment_id": 3,
+  "name": "Afterdrop / afterdrop_upload_v2",
+  "results": {
+    "as_of": "2026-11-26T11:39:47.643978Z",
+    "last_error_at": null,
+    "refresh_requested_at": "2026-11-26T11:44:33.809880Z",
+    "payload": {
+      "metrics": [
+        {
+          "variants": {
+            "resume": {
+              "n": 77,
+              "sum": 68.0,
+              "sum_squares": 68.0
+            },
+            "control": {
+              "n": 83,
+              "sum": 38.0,
+              "sum_squares": 38.0
+            }
+          },
+          "inference": {
+            "resume": {
+              "lift": 0.9289131920710868,
+              "ci_low": 0.44797270816754703,
+              "ci_high": 1.4098536759746265,
+              "chance_to_win": 0.9999233232961577
+            }
+          },
+          "metric_id": 1,
+          "conversions_timeseries": {
+            "points": [
+              {
+                "bucket": "2026-11-26T11:00:00+00:00",
+                "converted_identities": {
+                  "resume": 68,
+                  "control": 38
+                }
+              }
+            ],
+            "granularity": "hour"
+          }
+        }
+      ],
+      "srm_p_value": null,
+      "exposures_timeseries": {
+        "points": [
+          {
+            "bucket": "2026-11-26T11:00:00+00:00",
+            "new_identities": {
+              "resume": 77,
+              "control": 83
+            }
+          }
+        ],
+        "granularity": "hour"
+      }
+    },
+    "is_final": true
+  }
+}

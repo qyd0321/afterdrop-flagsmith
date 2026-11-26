@@ -1,0 +1,18 @@
+{
+  "mode": "flagsmith",
+  "sessions_checked": 4,
+  "assigned": {
+    "whole": 3,
+    "resume": 1
+  },
+  "on_time_and_verified": {
+    "resume": 1,
+    "whole": 2
+  },
+  "server_assembled_files": 3,
+  "sdk_conversions_requested": 3,
+  "experiment_id": 1,
+  "platform_as_of": "2026-11-26T12:01:41.647938Z",
+  "platform_agrees": true,
+  "verified_rollout": "control"
+}

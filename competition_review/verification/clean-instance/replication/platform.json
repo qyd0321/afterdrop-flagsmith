@@ -1,0 +1,62 @@
+{
+  "experiment_id": 2,
+  "name": "Afterdrop / afterdrop_cleanjudge_replication",
+  "results": {
+    "as_of": "2026-11-26T12:03:34.954604Z",
+    "last_error_at": null,
+    "refresh_requested_at": "2026-11-26T12:08:28.308026Z",
+    "payload": {
+      "metrics": [
+        {
+          "variants": {
+            "resume": {
+              "n": 76,
+              "sum": 67.0,
+              "sum_squares": 67.0
+            },
+            "control": {
+              "n": 84,
+              "sum": 34.0,
+              "sum_squares": 34.0
+            }
+          },
+          "inference": {
+            "resume": {
+              "lift": 1.178018575851393,
+              "ci_low": 0.581770624112845,
+              "ci_high": 1.774266527589941,
+              "chance_to_win": 0.9999461019800076
+            }
+          },
+          "metric_id": 1,
+          "conversions_timeseries": {
+            "points": [
+              {
+                "bucket": "2026-11-26T12:00:00+00:00",
+                "converted_identities": {
+                  "resume": 67,
+                  "control": 34
+                }
+              }
+            ],
+            "granularity": "hour"
+          }
+        }
+      ],
+      "srm_p_value": null,
+      "exposures_timeseries": {
+        "points": [
+          {
+            "bucket": "2026-11-26T12:00:00+00:00",
+            "new_identities": {
+              "resume": 76,
+              "control": 84
+            }
+          }
+        ],
+        "granularity": "hour"
+      }
+    },
+    "is_final": true
+  }
+}

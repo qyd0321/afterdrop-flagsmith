@@ -1,0 +1,42 @@
+{
+  "source": "Live Flagsmith SDK + HTTP upload service on the isolated reproduction instance",
+  "flag": "afterdrop_cleanjudge_togglecheck",
+  "runs": [
+    {
+      "flag_value": "control",
+      "enabled": true,
+      "http_status": 200,
+      "status": "executed",
+      "strategy": "whole",
+      "receiver_requests": 1,
+      "digest": "f82a3484b19d5aba1c7743c31e6b7b1943cdf2183beb3a937cd279e05f4b70f5"
+    },
+    {
+      "flag_value": "resume",
+      "enabled": true,
+      "http_status": 200,
+      "status": "executed",
+      "strategy": "resume",
+      "receiver_requests": 8,
+      "digest": "f82a3484b19d5aba1c7743c31e6b7b1943cdf2183beb3a937cd279e05f4b70f5"
+    },
+    {
+      "flag_value": "resume",
+      "enabled": false,
+      "http_status": 200,
+      "status": "disabled",
+      "strategy": null,
+      "receiver_requests": 0,
+      "digest": null
+    },
+    {
+      "flag_value": "unexpected",
+      "enabled": true,
+      "http_status": 503,
+      "status": "unavailable",
+      "strategy": null,
+      "receiver_requests": 0,
+      "digest": null
+    }
+  ]
+}

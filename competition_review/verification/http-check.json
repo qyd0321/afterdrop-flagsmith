@@ -1,0 +1,22 @@
+{
+  "conditions": "12 consecutive 32 KiB live release checks; loopback; one caller; HTTP round trip includes SDK lookup and server receipt. Engineering observations only.",
+  "responses_verified": 12,
+  "round_trip_ms": [
+    312.27,
+    406.14,
+    110.66,
+    56.78,
+    74.18,
+    46.43,
+    144.72,
+    76.51,
+    74.32,
+    61.28,
+    54.94,
+    78.19
+  ],
+  "median_ms": 75.41499999999999,
+  "min_ms": 46.43,
+  "max_ms": 406.14,
+  "unknown_demo_scenario_status": 400
+}

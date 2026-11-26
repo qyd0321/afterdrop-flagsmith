@@ -1,0 +1,26 @@
+{
+  "id": 1,
+  "status": "completed",
+  "started_at": "2026-11-26T12:01:37.694841Z",
+  "ended_at": "2026-11-26T12:01:41.647938Z",
+  "rollout_decision": "control",
+  "flag": {
+    "feature": "afterdrop_cleanjudge_smoke",
+    "type": "multivariate",
+    "description": "",
+    "enabled": true,
+    "value": "control",
+    "segment_overrides": 0,
+    "identity_overrides": 0,
+    "code_references": 0,
+    "lifecycle_stage": "new",
+    "variants": [
+      {
+        "id": 1,
+        "value": "resume",
+        "weight": 0,
+        "key": "resume"
+      }
+    ]
+  }
+}
